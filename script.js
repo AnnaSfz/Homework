@@ -19,4 +19,6 @@ console.log(userOnline);
 const winMessage = 'Congratulations! You won!'
 alert(winMessage);
 
-const
+// const
+
+alert('Hello!');
