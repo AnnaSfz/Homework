@@ -38,14 +38,17 @@
 //  }
 //  alert (result);
 
-const userAge = Number(prompt("Age: "));
+// const userAge = Number(prompt("Age: "));
 
-if ((userAge >= 12 && userAge < 18) || (userAge >= 60 && userAge < 80))
-const isParents = confirm("Взрослые дали разрешение?")
-if (isParents){
-    alert("Можете проходить");
-} else {
-    alert("Запрещено");
-} else if (userAge < 12 && userAge >= 80) {
-    
-}
+// if ((userAge >= 12 && userAge < 18) || (userAge >= 60 && userAge < 80)) {
+// const isParents = confirm("Взрослые дали разрешение?")
+// if (isParents) {
+//     alert("Можете проходить");
+// } else {
+//     alert("Запрещено");
+// } 
+// } else if (userAge < 12 || userAge >= 80) {
+//     alert("Запрещено");
+// } else {
+//     alert("Можете проходить");
+// }
