@@ -10,3 +10,30 @@
 //     alert(`Числа равны`);
 // }
 
+const num1 = Number(prompt("Enter number1"));
+const action = prompt("Enter +, -, * or /");
+const num2 = Number(prompt("Enter number2"));
+ let result;
+
+ switch (action) {
+     case "+":
+     result = num1+num2;
+     break;
+
+     case "-":
+     result = num1-num2;
+     break;
+
+     case "*":
+     result = num1*num2;
+     break;
+
+     case "/":
+     result = num1/num2;
+     break;
+
+     default:
+         result = "Error"
+
+ }
+ alert (result);
