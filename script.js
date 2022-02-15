@@ -46,4 +46,6 @@ if (isParents){
     alert("Можете проходить");
 } else {
     alert("Запрещено");
+} else if (userAge < 12 && userAge >= 80) {
+    
 }
